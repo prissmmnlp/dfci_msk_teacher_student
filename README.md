@@ -4,7 +4,7 @@ This repository contains training and inference code for extracting cancer outco
 
 Preprocessing code is included but would need to be modified to work on external EHR data depending on its data delivery format.
 
-To run inference, use the file 5_external_prissmm_inference.ipynb. You will need a dataset containing a column labeled "text", in which each observation corresponds to the imaging report on which you would like to run inference.
+To run inference, use the notebook 5_external_prissmm_inference.ipynb. You will need a dataset containing a column labeled "text", in which each observation corresponds to the imaging report on which you would like to run inference. The notebook currently runs inference on synthetic_example_imaging_data.csv, yielding output file synthetic_example_imaging_inference_result.csv .
 
 Student model weights can be obtained from https://huggingface.co/kenlkehl/dfci-student-imaging .  A Docker image that will run inference on a synthetic dataset of five imaging reports is also available there.
 
