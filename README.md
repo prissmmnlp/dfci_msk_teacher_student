@@ -1,6 +1,6 @@
 # dfci_msk_teacher_student_imaging
 
-This repository contains training and inference code for extracting cancer outcomes from imaging reports based on the paper "Shareable artificial intelligence to extract cancer outcomes from electronic health records."
+This repository contains training, inference, and evaluation code for extracting cancer outcomes from imaging reports based on the paper "Shareable artificial intelligence to extract cancer outcomes from electronic health records."
 
 Preprocessing code is included but would need to be modified to work on external EHR data depending on its data delivery format.
 
