@@ -6,7 +6,7 @@ Preprocessing code is included but would need to be modified to work on external
 
 To run inference, use the file 5_external_prissmm_inference.ipynb. You will need a dataset containing a column labeled "text", in which each observation corresponds to the imaging report on which you would like to run inference.
 
-Student model weights can be obtained from https://huggingface.co/kenlkehl/dfci-student-imaging .
+Student model weights can be obtained from https://huggingface.co/kenlkehl/dfci-student-imaging .  A Docker image that will run inference on a synthetic dataset of five imaging reports is also available there.
 
 The model will output predicted logits (log odds) that the following outcomes are present in each report:
 1) Any cancer
